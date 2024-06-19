@@ -14,7 +14,7 @@ body{
     transform: translate(-50%, -50%);
     border-radius: 3%;
     background-color: rgb(75, 199, 199);
-    box-shadow: 10px 10px 20px rgb(143, 139, 139);
+    box-shadow: 8px 8px 40px rgb(143, 139, 139);
     padding: 10px;
 }
 #tempLabel{

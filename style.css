@@ -1,0 +1,64 @@
+
+body{
+    height: 100vh;
+}
+#mainContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    row-gap: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3%;
+    background-color: rgb(75, 199, 199);
+    box-shadow: 10px 10px 20px rgb(143, 139, 139);
+    padding: 10px;
+}
+#tempLabel{
+    font-size: 2em;
+}
+#temperature{
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgb(1, 150, 150);
+}
+
+#temperature[type=text]{
+    font-size: large;
+    font-weight: bold;
+}
+
+.temp{
+    align-self: center;
+}
+
+.fTemp{
+    position: relative;
+    left: 10%;
+    font-size: 1.5em;
+}
+
+.cTemp{
+    position: relative;
+    left: 10%;
+    font-size: 1.5em;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    margin: auto;
+    background-color: rgb(223, 53, 53);
+    color: white;
+    border-radius: 8%;
+}
+
+#result{
+    font-size: 1.5rem;
+    margin: auto;
+}

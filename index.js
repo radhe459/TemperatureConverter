@@ -13,6 +13,10 @@ function fahrenheitToCelciusConverter(temperature){
 
 document.getElementById("Submit").onclick = function(){
     let input = document.getElementById("temperature").value
+    if(input===null || input===""){
+        document.getElementById("result").textContent = "Please Enter Temperature"
+        return
+    }
     input = Number(input)
     document.getElementById("result").textContent = celciusToFahrenheit.checked ? celciusToFahrenheitConverter(input) : fahrenheitToCelcius.checked ? fahrenheitToCelciusConverter(input) : "Please select any option";
 }

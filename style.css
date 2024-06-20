@@ -28,7 +28,12 @@ body{
     box-shadow: 5px 5px 10px rgb(1, 150, 150);
 }
 
-#temperature[type=text]{
+#temperature[type=number]::-webkit-outer-spin-button, #temperature[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#temperature[type=number]{
     font-size: large;
     font-weight: bold;
 }
